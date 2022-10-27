@@ -14,6 +14,6 @@ To customise, only two steps (and maybe a third):
 
 ## Some other resources
 
-This page uses [jekyll-TeXt-theme](https://kitian616.github.io/jekyll-TeXt-theme/docs/en/quick-start).
-Change it by choosing some other name (e.g. from [github's jekyll themes](https://github.com/topics/jekyll-theme)),
-and editing the line `theme:` in `_config.yml`.
+This page uses [the midnight theme](https://github.com/pages-themes/midnight).
+Change it by choosing some other name (e.g. from [github's jekyll themes](https://pages.github.com/themes/)),
+and editing the line `remote_theme:` in `_config.yml`.
