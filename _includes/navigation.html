@@ -1,6 +1,7 @@
 <nav>
+    {% assign domain = site.url | append: site.baseurl %}
     {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+        <a href="{{ domain }}{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
             {{ item.name }}&nbsp;&nbsp;
         </a>
     {% endfor %}

@@ -18,23 +18,20 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div id="header">
-        {% include navigation.html %}
-    </div>
+    <div class="wrapper">
 
-      <div class="wrapper">
-
-        <section>
-          <div id="title">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            <p>{{ site.description | default: site.github.project_tagline }}</p>
-          </div>
+      <section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          {% include navigation.html %}
+        </div>
             
-          {{ content }}
+        {{ content }}
   
         </section>
   
-      </div>
+    </div>
   
   </body>
 </html>
