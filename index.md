@@ -4,7 +4,7 @@ layout: default
 ---
 ## The front page of the site.
 
-![a portrait](static/images/portrait.jpg){:style="float: right"}
+![a portrait](static/images/portrait.jpg){:style="float: right" width="30%"}
 
 ### Main part
 Usually contains:
