@@ -6,7 +6,7 @@ Material based on the [Jekyll step by step tutorial](https://jekyllrb.com/docs/s
 To customise, only two steps (and maybe a third):
 1. Fork this repository,
     - name it `yourusername.github.io`
-    - Edit `_config.yml` so that `baseurl: ""`
+    - Edit `_config.yml` so that `url:` points to your site URL.
     - and [update your github settings](https://docs.github.com/en/pages/quickstart).
     - Check that your github pages updates when you commit and push to github. Can take 10 minutes to update.
 2. Edit the markdown pages (`index.md`, `research.md`, `organisation.md`) and add your content.
