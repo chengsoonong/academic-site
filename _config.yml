@@ -18,7 +18,7 @@ email: firstname.lastname@amazing.org
 description: >- # this means to ignore newlines until "baseurl:"
   Please fork and edit. Happy building!
   Copyright 2022 Cheng Soon Ong.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "academic-site" # the subpath of your site, e.g. /blog. Change this to ""
 url: "https://chengsoonong.github.io/academic-site" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username:  chengsoonong
